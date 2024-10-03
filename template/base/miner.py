@@ -185,6 +185,7 @@ class BaseMinerNeuron(BaseNeuron):
         self.stop_run_thread()
 
     def resync_metagraph(self):
+        return
         """Resyncs the metagraph and updates the hotkeys and moving averages based on the new metagraph."""
         bt.logging.info("resync_metagraph()")
 
